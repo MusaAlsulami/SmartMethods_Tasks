@@ -1,4 +1,4 @@
-
+<?php
 require __DIR__ . "/inc/bootstrap.php";
  
 if (!file_exists("number.sqlite")) {require_once PROJECT_ROOT_PATH . "/inc/bulidDatabase.php";}
@@ -25,3 +25,4 @@ try{
 
 }
 
+?>
